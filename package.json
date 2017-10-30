@@ -1,0 +1,27 @@
+{
+    "name": "react-static-example-basic",
+    "version": "1.0.1",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "react-static start",
+        "build": "react-static build",
+        "serve": "serve dist -p 3000"
+    },
+    "dependencies": {
+        "axios": "^0.16.2",
+        "babel-plugin-react-css-modules": "^3.3.2",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "react-router": "^4.2.0",
+        "react-static": "^3.0.6"
+    },
+    "devDependencies": {
+        "eslint-config-react-app": "^2.0.1",
+        "eslint-config-react-tools": "1.x.x",
+        "eslint-plugin-flowtype": "^2.39.1",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-jsx-a11y": "^6.0.2",
+        "serve": "^6.1.0"
+    }
+}
